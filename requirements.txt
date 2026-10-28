@@ -1,0 +1,11 @@
+# Our framework
+uvicorn
+fastmcp
+fastapi 
+fastapi-mcp 
+feedparser
+pydantic
+pytest
+httpx
+google-genai
+python-dotenv

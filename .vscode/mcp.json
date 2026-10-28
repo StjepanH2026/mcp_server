@@ -1,0 +1,8 @@
+{
+  "servers": {
+    "UnitConverter": {
+      "command": "python",
+      "args": ["converter_streamable_http_server.py"]
+    }
+  }
+}
