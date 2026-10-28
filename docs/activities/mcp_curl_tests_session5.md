@@ -15,7 +15,7 @@ The MCP endpoints do **not** require auth headers; the plain HTTP conversion rou
 
 ```bash
 # Optional helpers
-BASE="http://localhost:8003" && \
+BASE="https://mcp-server-7vi1.onrender.com/" && \
 MCP="$BASE/mcp/" && \
 SSE="$BASE/sse/" && \
 AUTH="Authorization: Bearer 143f4a46d74fee0d7918b2857577868cb3daf9e6e50ee91c2f7975ba26fdb8f7" && \

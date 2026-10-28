@@ -43,7 +43,7 @@ Set these in Render for the Gemini client service:
 ```text
 GEMINI_API_KEY=your_real_key_here
 GEMINI_MODEL=gemini-2.5-flash
-MCP_SERVER_URL=https://mcp-cicd-test.onrender.com/mcp/
+MCP_SERVER_URL=https://mcp-server-7vi1.onrender.com/
 ```
 
 Notes:

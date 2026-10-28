@@ -42,7 +42,7 @@ The MCP endpoints do **not** require authentication.
 ## Optional environment helpers
 
 ```bash
-BASE="https://your-server-name.onrender.com"
+BASE="https://mcp-server-7vi1.onrender.com"
 MCP="$BASE/mcp/"
 ACCEPT="Accept: application/json, text/event-stream"
 PROTO="MCP-Protocol-Version: 2025-06-18"
