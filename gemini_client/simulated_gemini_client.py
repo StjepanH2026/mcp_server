@@ -14,7 +14,7 @@ load_dotenv()
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
-MCP_SERVER_URL = os.getenv("MCP_SERVER_URL", "http://localhost:8003/mcp")
+MCP_SERVER_URL = os.getenv("MCP_SERVER_URL", "https://mcp-server-gemini-o9ls.onrender.com")
 
 KM_TO_MILES_TOOL = "kilometers_to_miles"
 
