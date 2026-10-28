@@ -44,7 +44,7 @@ app = FastAPI(
 
 # --- Register Prompts ---
 app.include_router(converter_router)
-app.include_router(mile_to_km)
+##app.include_router(mile_to_km)
 
 # --- Register System ---
 system_router = APIRouter(prefix="", tags=["system"])
@@ -82,12 +82,12 @@ mcp = FastMCP.from_fastapi(
 )
 
 mcp.tool(
-    name="kilometers_to_miles",
+    name="lookup_ip_threat_intel",
     description="Convert kilometers to miles with one MCP progress notification.",
-)(kilometers_to_miles_mcp)
+)
 
 # --- Register Resources --- dynamically via URI template
-register_resources(mcp, RESOURCE_DEFINITIONS)
+##register_resources(mcp, RESOURCE_DEFINITIONS)
 
 # Prompts
 @mcp.prompt(name="explain_conversion", description="Guide a learner through the math for a conversion.")
